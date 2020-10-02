@@ -1,5 +1,6 @@
 server:
   port: 8191
+
 spring:
   cloud:
     config:
@@ -7,5 +8,5 @@ spring:
         git:
           uri: https://github.com/svmsharma20/RentMyCarApp
           search-paths:
-            - '/config-store'
-            - '/config-store/*service'
+           - '/config-store'
+           - '/config-store/*service'
